@@ -2,5 +2,5 @@
 
 Строка скачивания /n
 
-docker build -t favicon .
+docker build -t favicon . /n
 docker run --name favicon -d --rm -v /home/andrey/docker/http_wget:/favicon/ favicon
